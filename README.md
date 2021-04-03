@@ -8,3 +8,6 @@
 [http://syntra-examenhtmlencss.surge.sh/](http://syntra-examenhtmlencss.surge.sh/)
 
 ***Deployment via Vercel:***
+
+[https://syntra-examenhtmlencss.vercel.app/](https://syntra-examenhtmlencss.vercel.app/)
+
