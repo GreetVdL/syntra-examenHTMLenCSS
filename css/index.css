@@ -302,3 +302,82 @@ footer a {
 footer :is(a:focus, a:hover) {
   color: var(--orange);
 }
+
+/* responsive styles */
+
+@media screen and (max-width: 1154px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+
+  main section {
+    padding-right: 20px;
+  }
+
+  footer {
+    height: auto;
+  }
+  main section button {
+    margin-bottom: 47px;
+  }
+
+  footer a {
+    padding-top: 25px;
+  }
+
+  footer p {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  footer a {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main .wrapper {
+    flex-direction: column;
+  }
+
+  main aside {
+    margin-top: 10px;
+    margin-bottom: 57px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer #social {
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+  }
+  footer {
+    padding-bottom: 20px;
+  }
+  main aside {
+    width: 300px;
+  }
+  form input {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  header ul {
+    width: auto;
+  }
+  header li {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+}
+
+@media screen and (max-width: 382px) {
+  main aside {
+    align-self: center;
+  }
+}
