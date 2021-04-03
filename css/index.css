@@ -87,6 +87,12 @@ header li :is(a:focus, a:hover, a:active) {
   color: var(--orange);
 }
 
+header ul > a {
+  display: none;
+  color: var(--lightgrey);
+  font-size: 3rem;
+}
+
 /* main styles */
 
 main {
@@ -374,6 +380,24 @@ footer :is(a:focus, a:hover) {
 }
 
 @media screen and (max-width: 430px) {
+  header ul > a {
+    display: block;
+    color: var(--lightgrey);
+    font-size: 3rem;
+    padding-top: 5px;
+  }
+
+  header ul {
+    flex-direction: column;
+  }
+
+  header li {
+    display: none;
+  }
+
+  header ul > :is(a:focus, a:hover) {
+    color: var(--orange);
+  }
 }
 
 @media screen and (max-width: 382px) {
