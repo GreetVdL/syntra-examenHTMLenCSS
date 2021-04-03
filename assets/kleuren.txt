@@ -1,0 +1,6 @@
+oranje:#ff9b51
+zwart:#000
+wit:#fff
+donkergrijs:#333333
+lightgrijs:#f5f5f5
+grijs:#ccc
