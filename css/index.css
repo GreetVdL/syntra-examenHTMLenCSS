@@ -89,15 +89,25 @@ header li :is(a:focus, a:hover, a:active) {
 /* main styles */
 
 main {
-  height: calc(100vh - 70px - 103px);
+  min-height: calc(100vh - 70px - 103px);
   background-image: url("../assets/images/banner_background.jpg");
   background-position: top center;
+}
+
+main .wrapper {
+  height: 100%;
+}
+
+main section {
+  height: 100%;
+  max-width: 530px;
 }
 
 main img {
   display: block;
   width: 123px;
   height: auto;
+  padding-top: 110px;
 }
 
 main section h1 {
@@ -107,14 +117,16 @@ main section h1 {
   line-height: 44px;
   color: var(--lightgrey);
   text-transform: uppercase;
+  padding-top: 33px;
 }
 
 main section h1::after {
   content: "";
   display: block;
   width: 64px;
-  height: 1px;
+  height: 2px;
   background-color: var(--lightgrey);
+  margin-top: 40px;
 }
 
 main section p {
@@ -123,17 +135,36 @@ main section p {
   font-size: 1.6rem;
   line-height: 23px;
   color: var(--lightgrey);
+  padding-top: 40px;
+  padding-bottom: 46px;
 }
 
 main section button {
-  border: 1px solid #f5f5f5;
+  border: 2px solid #f5f5f5;
   background-color: rgba(255, 255, 255, 0);
   color: var(--lightgrey);
+  height: 43px;
+}
+
+main section :is(button:focus, button:hover) {
+  border: 2px solid #ff9b51;
 }
 
 main section button a {
   color: var(--lightgrey);
   text-decoration: none;
+  height: 37px;
+  line-height: 37px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-left: 32px;
+  padding-right: 29px;
+}
+
+main section button :is(a:focus, a:hover) {
+  color: var(--orange);
 }
 
 /* footer styles */
