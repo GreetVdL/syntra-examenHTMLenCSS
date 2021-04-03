@@ -1,0 +1,24 @@
+{
+  "name": "syntra-examenHTMLenCSS",
+  "version": "1.0.0",
+  "description": "examen Greet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreetVdL/syntra-examenHTMLenCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreetVdL/syntra-examenHTMLenCSS/issues"
+  },
+  "homepage": "https://github.com/GreetVdL/syntra-examenHTMLenCSS#readme",
+  "scripts": {
+    "deploy": "surge . syntra-examenHTMLenCSS.surge.sh",
+    "start": "live-server"
+  }
+}
