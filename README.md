@@ -1,7 +1,12 @@
 # Syntra examen
 ## HTML en CSS
 
-📱 Ik heb een werkend hamburger menutje kunnen maken. Dankzij de extra tijd, woot. :)
+The HTML and CSS exam on April 3, 2021 consisted of the assignment to make a pixel-perfect reproduction of the below design and to find nice responsive solutions for tablet and mobile. We were given five hours to do this.
+
+
+***Design:***
+
+![design image](./assets/design/design.jpg)
 
 ***Deployment via surge:***
 
